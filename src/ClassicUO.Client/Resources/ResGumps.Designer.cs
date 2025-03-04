@@ -3432,7 +3432,7 @@ namespace ClassicUO.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Set current profile as default for new characters.
+        ///   Looks up a localized string similar to Save current settings as defaults for new users.
         /// </summary>
         public static string SetAsNewDefault {
             get {
@@ -3932,6 +3932,15 @@ namespace ClassicUO.Resources {
         public static string StatusGumpOpenBar {
             get {
                 return ResourceManager.GetString("StatusGumpOpenBar", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Stay active.
+        /// </summary>
+        public static string StayActive {
+            get {
+                return ResourceManager.GetString("StayActive", resourceCulture);
             }
         }
         
